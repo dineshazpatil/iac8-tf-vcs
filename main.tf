@@ -19,4 +19,8 @@ resource "azurerm_resource_group" "tf-cloud-rg-fromvcs" {
   location = "westus"
 }
 
+resource "azurerm_resource_group" "tf-cloud-rg-fromvcs2" {
+  name     = "tf-cloud-from-vcs2"
+  location = "westus"
+}
 
